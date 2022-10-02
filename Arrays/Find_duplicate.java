@@ -13,6 +13,7 @@ import java.util.*;
 class Solution {
 
     public static ArrayList<Integer> duplicates(int arr[], int n) {
+        
         HashMap<Integer,Integer> hm=new HashMap<>();
         PriorityQueue<Integer> pq= new PriorityQueue<>();
         ArrayList<Integer> list=new ArrayList<>();
